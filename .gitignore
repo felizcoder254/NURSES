@@ -25,6 +25,8 @@ npm-debug.log
 Thumbs.db
 yarn-error.log
 
-# Allow NCK assets to be tracked
-!/storage/app/public/nck
-!/storage/app/public/nck/**
+/storage/app/*
+
+# But do NOT ignore storage/app/public or anything beneath it
+!/storage/app/public
+!/storage/app/public/**

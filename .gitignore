@@ -24,3 +24,8 @@ Homestead.yaml
 npm-debug.log
 Thumbs.db
 yarn-error.log
+
+# ─── Storage ────────────────────────────────────────────────────────
+/storage/app/*             # ignore everything under storage/app
+!/storage/app/public       # except storage/app/public itself
+!/storage/app/public/**    # and all files under storage/app/public
